@@ -1,0 +1,16 @@
+{
+  "name": "calculadora-production",
+  "version": "1.0.0",
+  "description": "Llevando a producción nuestro programa",
+  "main": "Script.js",
+  "dependencies": {
+    "parcel-bundler": "^1.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build":"parcel build ./src/js/Script.js",
+    "dev": "parcel ./src/Index.html"
+  },
+  "author": "Maximilinao Echevarria",
+  "license": "ISC"
+}

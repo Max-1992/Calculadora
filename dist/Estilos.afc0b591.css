@@ -1,0 +1,119 @@
+:root {
+    --margin-bottom: 10px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 500px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Calculadora-container {
+    border: 1px solid black;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgb(43, 42, 42);
+    border-radius: 20px;
+    box-shadow: 0 15px 20px -10px black ;
+}
+
+.Display-container {
+    text-align: center;
+    border: 5px solid rgb(107, 106, 106);
+    width: 220px;
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.Primera-Fila-Contenedor{
+    margin-bottom: var(--margin-bottom)
+    
+}
+
+.Segunda-Fila-Contenedor {
+    margin-bottom: var(--margin-bottom);
+    display: inline-block;
+    
+}
+
+.Tercera-Fila-Contenedor{
+    margin-bottom: var(--margin-bottom);
+    display: inline-block;
+    position: relative;
+    top: -28px;
+}
+
+.Boton-op {
+    border: 1px solid white;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background-color: rgb(55, 168, 243)
+}
+
+.Boton {
+    border: 1px solid white;
+    color: white;
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background-color: transparent;
+    margin-bottom: 5px
+}
+
+.cero {
+    width: 100px;
+}
+
+.Suma, .Igual{
+    height: 105px;
+    display: block;
+}
+
+.Suma {
+    margin-bottom: 5px;
+}
+
+.Borrar {
+    background-color: rgb(253, 108, 108);
+}
+
+.Display-operacion{
+    width: 150px;
+    height: 25px;
+    margin: auto;
+    margin-top: 2px
+}
+
+/* .Numero-display{
+    font-size: 25px;
+    color: black;
+} */
+
+.Display-operacion {
+    text-align: right;
+    margin-right: 5px;
+    font-size: 20px;
+    color: black;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.Iluminacion{
+    background-color: orange;
+    
+}
+
+/*# sourceMappingURL=/Estilos.afc0b591.css.map */
